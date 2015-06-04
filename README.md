@@ -20,4 +20,6 @@ kCIFARTrainBatches, and some path varaible.
 
 * execute create_svhn.sh file at root_caffe, you will get leveldb at /example/svhn
 
-* click here for [python convert](https://github.com/PeterPan1990/caffe/blob/master/python/caffe/io.py)
+* click here for [python convert](https://github.com/PeterPan1990/caffe/blob/master/python/caffe/io.py) 
+
+* another python tool [python deepdish](https://github.com/uchicago-cs/deepdish)
