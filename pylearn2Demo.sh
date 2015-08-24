@@ -12,5 +12,4 @@ python make_dataset
 
 # 3. visualize the filters
 /home/dl/pylearn2/pylearn2/scripts/show_weights.py cifar_grbm_smd.pkl
-
-/home/dl/pylearn2/pylearn2/scripts/show_weights.py cifar_grbm_smd.pkl
+/home/dl/pylearn2/pylearn2/scripts/plot_monitor.py cifar_grbm_smd.pkl
