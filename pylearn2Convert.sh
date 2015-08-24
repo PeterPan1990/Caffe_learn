@@ -4,5 +4,13 @@
 
 # change to root
 su
+# 1 step: make dataset
+python make_dataset
 
-python make_dataset.p
+# 2.step: train
+/home/dl/pylearn2/pylearn2/scripts/train.py cifar_grbm_smd.yaml
+
+# 3. visualize the filters
+/home/dl/pylearn2/pylearn2/scripts/show_weights.py cifar_grbm_smd.pkl
+
+/home/dl/pylearn2/pylearn2/scripts/show_weights.py cifar_grbm_smd.pkl
